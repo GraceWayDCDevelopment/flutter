@@ -297,7 +297,7 @@ class ContactsDemoState extends State<ContactsDemo> {
                       tooltip: 'Open map',
                       onPressed: () {
                         _scaffoldKey.currentState.showSnackBar(const SnackBar(
-                          content: Text('This would also show a map, if this was not a demo.'),
+                          content: Text('This would also show a map, if this were not a demo.'),
                         ));
                       },
                       lines: const <String>[
